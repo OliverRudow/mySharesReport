@@ -20,8 +20,8 @@ import smtplib
 from email.mime.multipart import MIMEMultipart
 from email.mime.text import MIMEText
 from email.mime.application import MIMEApplication
-from file_base_me import myFileBase
-from watchlist_definition_me import myReportTopListDefinitions
+from myfilebase import myFileBase
+from mysharesdefinition import myReportTopListDefinitions
 
 STR_PDF_REPORT_FILE_NAME: str = "my_shares_report.pdf"
 
